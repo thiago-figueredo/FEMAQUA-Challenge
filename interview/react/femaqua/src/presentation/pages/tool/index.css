@@ -1,0 +1,80 @@
+button {
+  font-size: medium;
+  border: 3px solid black;
+}
+
+label {
+  margin-bottom: .5rem; 
+}
+
+input, textarea {
+  font-size: medium;
+  outline: none;
+}
+
+.tool {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.tool-search {
+  border: 3px solid black;
+  width: 40%;
+  min-width: 12rem;
+  display: flex;
+  align-items: center;
+  padding: 0 .3rem;
+}
+
+.tool-search input {
+  padding: .3rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: medium;
+}
+
+.tool-header button {
+  padding: .5rem;
+  color: rgb(67, 236, 101);
+}
+
+.tool-section {
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tool-info {
+  max-width: 80%;
+  padding: .5rem;
+}
+
+#delete-tool button {
+  padding: .5rem;
+  font-size: medium;
+  color: red;
+}
+
+a {
+  color: blue;
+  font-size: large;
+}
+
+a, span {
+  line-height: 1.5rem;
+}

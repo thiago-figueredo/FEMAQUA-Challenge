@@ -1,0 +1,57 @@
+.login {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login form {
+  width: 60%;
+}
+
+.login-field {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.login-field input {
+  width: 100%;
+  padding: .5rem;
+  margin-top: .5rem;
+  font-size: large;
+}
+
+.login-field label {
+  padding-left: .5rem;
+  font-weight: 600;
+}
+
+.side-bar {
+  width: 40%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #0096FF;
+  border: 2px solid black;
+  border-radius: .5rem;
+}
+
+.button {
+  width: 100%;
+  text-align: right;
+}
+
+button {
+  padding: 1rem 3rem;
+  border: 2px solid #202020;
+  border-radius: 1px;
+  cursor: pointer;
+  background: transparent;
+}
+
+button:hover {
+  background-color: #eff2f6;
+}

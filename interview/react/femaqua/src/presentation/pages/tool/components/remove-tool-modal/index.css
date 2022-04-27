@@ -1,0 +1,42 @@
+.remove-tool {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 120%;
+  padding: 2rem;
+  box-shadow: 0 0 .4rem black;
+  position: relative;
+  border-radius: .5rem;
+}
+
+.remove-tool header,.remove-tool footer {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-tool header h2 {
+  margin: 0;
+}
+
+.remove-tool h4 {
+  margin-bottom: 1rem;
+}
+
+.remove-tool #yes {
+  background: rgb(215, 41, 41);
+  border: none;
+  border-radius: .5rem;
+  color: snow;
+}
+
+.remove-tool #cancel {
+  border-radius: .5rem;
+  border: none;
+  box-shadow: 0 0 .2rem black;
+}
+
+.remove-tool button:hover {
+  opacity: 0.98;
+}
